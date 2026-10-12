@@ -1,0 +1,104 @@
+.llm-logs-page__toolbar {
+  margin-bottom: var(--space-6);
+}
+
+.llm-logs-page__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+
+.llm-logs-page__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.llm-logs-page__entry {
+  overflow: hidden;
+}
+
+.llm-logs-page__entry-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-4);
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.llm-logs-page__entry-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.llm-logs-page__entry-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-base);
+  font-weight: 600;
+  margin-bottom: var(--space-1);
+}
+
+.llm-logs-page__entry-meta {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+
+.llm-logs-page__entry-preview {
+  margin-top: var(--space-2);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.llm-logs-page__entry-detail {
+  margin-top: var(--space-4);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-border);
+}
+
+.llm-logs-page__entry-badges {
+  margin-bottom: var(--space-3);
+}
+
+.llm-logs-page__payload + .llm-logs-page__payload {
+  margin-top: var(--space-4);
+}
+
+.llm-logs-page__payload-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.llm-logs-page__payload-body {
+  margin: 0;
+  padding: var(--space-3);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-muted, rgba(0, 0, 0, 0.04));
+  border: 1px solid var(--color-border);
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: var(--text-xs);
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 420px;
+  overflow: auto;
+}
+
+.llm-logs-page__empty {
+  text-align: center;
+  color: var(--color-text-muted);
+}

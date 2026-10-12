@@ -1,0 +1,28 @@
+.desktop-banner {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--color-bg);
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-8);
+  text-align: center;
+}
+
+.desktop-banner h2 {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-4);
+}
+
+.desktop-banner p {
+  color: var(--color-text-secondary);
+  max-width: 320px;
+}
+
+@media (max-width: 1279px) {
+  .desktop-banner {
+    display: flex;
+    flex-direction: column;
+  }
+}

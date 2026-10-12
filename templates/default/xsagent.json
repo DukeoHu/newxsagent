@@ -1,0 +1,9 @@
+{
+  "id": "{{project_id}}",
+  "name": "{{name}}",
+  "genre": "{{genre}}",
+  "intervention_level": "{{intervention_level}}",
+  "onboarding_complete": false,
+  "created_at": "{{created_at}}",
+  "updated_at": "{{created_at}}"
+}

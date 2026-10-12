@@ -1,0 +1,12 @@
+.chapter-reader__title {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-6);
+}
+
+.chapter-reader__content {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  line-height: 1.8;
+  white-space: pre-wrap;
+  color: var(--color-text);
+}

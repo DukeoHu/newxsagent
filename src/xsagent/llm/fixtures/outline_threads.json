@@ -1,0 +1,72 @@
+{
+  "volumes": [
+    {
+      "volume_id": "vol_01",
+      "opening_focus": "重生日常与轻微违和，感情线仅远观",
+      "threads": [
+        {
+          "id": "main",
+          "label": "主线",
+          "priority_curve": "high_early",
+          "milestones": [
+            { "id": "m1", "summary": "确认重生", "earliest_chapter": 1 },
+            { "id": "m2", "summary": "适应新生活", "earliest_chapter": 5 }
+          ],
+          "stages": [
+            {
+              "level": 0,
+              "id": "situation",
+              "label": "处境确认",
+              "ceiling": "仅确认重生事实"
+            },
+            {
+              "level": 1,
+              "id": "adaptation",
+              "label": "适应调整",
+              "ceiling": "允许日常适应"
+            }
+          ]
+        },
+        {
+          "id": "romance",
+          "label": "感情线",
+          "priority_curve": "low_early_high_mid",
+          "milestones": [
+            { "id": "r1", "summary": "远观印象", "earliest_chapter": 1 },
+            { "id": "r2", "summary": "间接关联", "earliest_chapter": 8 }
+          ],
+          "stages": [
+            {
+              "level": 0,
+              "id": "unaware",
+              "label": "无交集",
+              "ceiling": "禁止直接交流"
+            },
+            {
+              "level": 1,
+              "id": "distant_awareness",
+              "label": "远观印象",
+              "ceiling": "仅远观"
+            }
+          ]
+        },
+        {
+          "id": "academic",
+          "label": "学业线",
+          "priority_curve": "steady",
+          "milestones": [
+            { "id": "a1", "summary": "学业基线", "earliest_chapter": 3 }
+          ],
+          "stages": [
+            {
+              "level": 0,
+              "id": "baseline",
+              "label": "学业基线",
+              "ceiling": "仅展示成绩"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

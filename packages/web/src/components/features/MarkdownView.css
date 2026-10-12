@@ -1,0 +1,25 @@
+.markdown-view {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.markdown-view h1,
+.markdown-view h2,
+.markdown-view h3 {
+  color: var(--color-text);
+  margin: var(--space-4) 0 var(--space-2);
+}
+
+.markdown-view h1 {
+  font-size: var(--text-xl);
+}
+
+.markdown-view h2 {
+  font-size: var(--text-lg);
+}
+
+.markdown-view h3 {
+  font-size: var(--text-base);
+}

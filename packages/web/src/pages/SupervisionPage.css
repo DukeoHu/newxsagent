@@ -1,0 +1,42 @@
+.supervision-page__health {
+  margin-bottom: var(--space-6);
+}
+
+.supervision-page__pending {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.supervision-page__batch {
+  margin-bottom: var(--space-6);
+}
+
+.supervision-page__item-title {
+  font-size: var(--text-base);
+  font-weight: 600;
+}
+
+.supervision-page__item-summary {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  margin: var(--space-2) 0 var(--space-4);
+}
+
+.supervision-page__actions {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.supervision-page__logs {
+  max-height: 260px;
+  overflow: auto;
+}
+
+.supervision-page__log-line {
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--color-border);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}

@@ -1,0 +1,26 @@
+{
+  "findings": [
+    {
+      "id": "finding_high_1",
+      "type": "timeline",
+      "severity": "high",
+      "description": "章节暗示时间为十年前，与 timeline 中当前年份冲突",
+      "suggested_patch": {
+        "updates": [
+          {
+            "section": "timeline",
+            "op": "append",
+            "path": "events",
+            "value": {
+              "id": "evt_retcon",
+              "chapter": "ch_002",
+              "summary": "闪回：十年前未完成的夜晚"
+            }
+          }
+        ],
+        "risk_level": "high",
+        "explanation": "需确认时间线是否为闪回叙事"
+      }
+    }
+  ]
+}

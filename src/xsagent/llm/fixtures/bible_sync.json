@@ -1,0 +1,27 @@
+{
+  "updates": [
+    {
+      "section": "characters",
+      "op": "append",
+      "path": "characters",
+      "value": {
+        "id": "char_linxi",
+        "name": "林夕",
+        "role": "主角",
+        "current_state": "收到匿名信，进入旧邮局"
+      }
+    },
+    {
+      "section": "timeline",
+      "op": "append",
+      "path": "events",
+      "value": {
+        "id": "evt_ch002",
+        "chapter": "ch_002",
+        "summary": "林夕进入旧邮局，与神秘老人相遇"
+      }
+    }
+  ],
+  "risk_level": "low",
+  "explanation": "章节引入新场景与人物状态，风险较低。"
+}

@@ -1,0 +1,107 @@
+{
+  "bible": {
+    "characters": {
+      "characters": [
+        {
+          "id": "char_main",
+          "name": "林夕",
+          "role": "主角",
+          "goal": "查明身世之谜并守护重要之人",
+          "arc": "从隐忍蛰伏到直面命运",
+          "current_state": "收到匿名信，被迫踏入旧邮局",
+          "description": "冷静敏锐，习惯在细节中寻找真相"
+        },
+        {
+          "id": "char_mentor",
+          "name": "沈伯",
+          "role": "导师",
+          "goal": "引导主角理解世界的真实规则",
+          "arc": "亦师亦谜",
+          "current_state": "在旧邮局等候主角",
+          "description": "知晓部分真相，言语含蓄"
+        }
+      ],
+      "locked_fields": []
+    },
+    "plot": {
+      "acts": [
+        {
+          "id": "act_1",
+          "title": "入局",
+          "summary": "主角因匿名信卷入神秘事件，发现世界存在隐藏规则"
+        }
+      ],
+      "themes": ["命运与选择", "真相的代价"],
+      "locked_fields": []
+    },
+    "world": {
+      "rules": [
+        {
+          "id": "rule_1",
+          "title": "信物共鸣",
+          "description": "特定古物会在关键节点与持有者产生共鸣，揭示线索"
+        }
+      ],
+      "locations": [
+        {
+          "id": "loc_post",
+          "name": "旧邮局",
+          "description": "城市边缘的废弃邮局，是故事开篇的核心场景"
+        }
+      ],
+      "locked_fields": []
+    },
+    "timeline": {
+      "events": [
+        {
+          "id": "evt_1",
+          "chapter": "ch_001",
+          "summary": "林夕收到匿名信，决定前往旧邮局"
+        }
+      ],
+      "locked_fields": []
+    },
+    "notes": {
+      "style_notes": "第三人称限知视角，节奏紧凑，悬疑感逐步升级",
+      "style_rules": [
+        {
+          "id": "sr_perspective",
+          "category": "perspective",
+          "title": "第三人称限知",
+          "description": "叙事紧贴主角感知，不写其他角色内心独白",
+          "priority": "must"
+        },
+        {
+          "id": "sr_pacing",
+          "category": "pacing",
+          "title": "悬疑递进",
+          "description": "每章推进至少一条新线索或新疑问，避免原地复述",
+          "priority": "must"
+        },
+        {
+          "id": "sr_tone",
+          "category": "tone",
+          "title": "冷静克制",
+          "description": "整体基调冷静、压抑，少用夸张煽情与口号式热血",
+          "priority": "should"
+        },
+        {
+          "id": "sr_dialogue",
+          "category": "dialogue",
+          "title": "对话含蓄",
+          "description": "关键信息多通过潜台词与细节暗示，避免角色直接解说设定",
+          "priority": "should"
+        },
+        {
+          "id": "sr_taboo",
+          "category": "taboo",
+          "title": "禁用系统面板口吻",
+          "description": "禁止出现属性面板、任务弹窗、机械播报式旁白",
+          "priority": "must"
+        }
+      ],
+      "author_notes": "由引导对话自动生成的初始设定，可在设定集中继续精修",
+      "locked_fields": []
+    }
+  }
+}

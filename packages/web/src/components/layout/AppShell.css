@@ -1,0 +1,27 @@
+.app-shell {
+  position: relative;
+  display: flex;
+  height: 100%;
+  z-index: 2;
+}
+
+.app-shell__main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.app-shell__content {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-8) var(--space-10);
+}
+
+.app-shell__content--centered {
+  max-width: calc(var(--content-max-width) + var(--space-20));
+  margin: 0 auto;
+  width: 100%;
+}

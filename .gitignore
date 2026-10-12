@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data & runtime
+data/
+*.log
+test-results/
+playwright-report/
+
+# Local config (may contain API keys). Commit config.example.yaml instead.
+config.yaml
+
+# Node
+node_modules/
+packages/web/dist/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+._*
+
+# Env
+.env
+.env.local

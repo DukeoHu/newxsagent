@@ -1,0 +1,35 @@
+.chapters-page__layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: var(--space-4);
+}
+
+.chapters-page__list {
+  max-height: 70vh;
+  overflow: auto;
+}
+
+.chapters-page__item {
+  width: 100%;
+  text-align: left;
+  margin-bottom: var(--space-2);
+}
+
+.chapters-page__item-title {
+  font-size: var(--text-sm);
+  font-weight: 500;
+}
+
+.chapters-page__item-meta {
+  margin-top: var(--space-1);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+.chapters-page__actions {
+  margin-bottom: var(--space-4);
+}
+
+.chapters-page__action-buttons {
+  margin-top: var(--space-3);
+}

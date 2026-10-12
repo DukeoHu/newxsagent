@@ -1,0 +1,10 @@
+{
+  "rules": [
+    {
+      "category": "taboo",
+      "title": "禁止提前揭晓终局",
+      "description": "监督中多次拦截剧透，正文不得写出全书终局或后卷核心揭晓。",
+      "priority": "must"
+    }
+  ]
+}
